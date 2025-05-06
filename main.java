@@ -103,7 +103,7 @@ public class StarGiftUniqueActionLayout {
 		String deepLink = "https://t.me/" + username + "?start=" + action.random_id;
 	
 		try {
-			AndroidUtilities.openUrl(view.getContext(), username);
+			AndroidUtilities.openUrl(view.getContext(), deepLink);
 		} catch (Exception e) {
 			FileLog.e("Failed to open gift wallet link: " + deepLink, e);
 		}
