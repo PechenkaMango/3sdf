@@ -109,10 +109,10 @@ public class StarGiftUniqueActionLayout {
 		}
 	}
 
-    public StarGiftUniqueActionLayout(int currentAccount, ChatActionCell view, Theme.ResourcesProvider resourcesProvider) {
-        this.currentAccount = currentAccount;
-        this.view = view;
-        this.resourcesProvider = resourcesProvider;
+        public StarGiftUniqueActionLayout(int currentAccount, ChatActionCell view, Theme.ResourcesProvider resourcesProvider) {
+	        this.currentAccount = currentAccount;
+	        this.view = view;
+	        this.resourcesProvider = resourcesProvider;
 
         ribbon = new GiftSheet.RibbonDrawable(view, 1.0f);
         buttonBounce = new ButtonBounce(view);
